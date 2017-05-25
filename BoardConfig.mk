@@ -24,6 +24,9 @@ TARGET_BOARD_INFO_FILE := device/samsung/i9100/board-info.txt
 # CM overlay to  frameworks/opt/hardware/src/
 BOARD_HARDWARE_CLASS += device/samsung/i9100/cmhw
 
+# Device specific headers
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/i9100/include
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100/bluetooth
 
